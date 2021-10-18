@@ -22,8 +22,6 @@ namespace Delegate
             AreaDelegate obj = new AreaDelegate(p.GetArea);
             obj += p.GetPerimeter;
             obj.Invoke(12, 43);
-
-
         }
     }
 }
